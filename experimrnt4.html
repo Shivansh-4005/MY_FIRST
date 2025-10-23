@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<body>
+
+    <h2 align="center"><u>Student Registration Form</u></h2>
+    
+    <form method="post" action="/register" align="center">
+        <table border="0" cellspacing="10" cellpadding="5" align="center">
+            
+            <tr>
+                <td align="right">Full Name:</td>
+                <td><input type="text" name="fullName" placeholder="Enter your full name"></td>
+            </tr>
+            
+            <tr>
+                <td align="right">Email:</td>
+                <td><input type="email" name="email" placeholder="Enter valid email address"></td>
+            </tr>
+            
+            <tr>
+                <td align="right">Password:</td>
+                <td><input type="password" name="password" placeholder="Enter password"></td>
+            </tr>
+            
+            <tr>
+                <td align="right">Gender:</td>
+                <td>
+                    <input type="radio" id="male" name="gender" value="male"> <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female"> <label for="female">Female</label>
+                    <input type="radio" id="other" name="gender" value="other"> <label for="other">Other</label>
+                </td>
+            </tr>
+            
+            <tr>
+                <td align="right">Course:</td>
+                <td>
+                    <select name="course">
+                        <option value="">-- Select Course --</option>
+                        <option value="cs">Computer Science</option>
+                        <option value="ee">Electrical Engineering</option>
+                        <option value="mech">Mechanical Engineering</option>
+                        <option value="civil">Civil Engineering</option>
+                    </select>
+                </td>
+            </tr>
+            
+            <tr>
+                <td align="right">Contact No:</td>
+                <td><input type="text" name="contactNo" placeholder="Enter phone number"></td>
+            </tr>
+            
+            <tr>
+                <td align="right" valign="top">Address:</td>
+                <td><textarea name="address" rows="4" cols="30" placeholder="Enter your address"></textarea></td>
+            </tr>
+            
+            <tr>
+                <td></td> <td>
+                    <input type="submit" value="Register">
+                    <input type="reset" value="Clear">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+</html>

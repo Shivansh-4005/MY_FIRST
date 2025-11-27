@@ -1,0 +1,53 @@
+#container{
+    width: 1350px;
+    display: flex;
+    margin-left: 30px;
+    margin-top: 30px;
+    border: 3px solid black;
+    padding: 50px;
+    justify-content: center;
+    
+}
+#ashaa{
+    margin-left: 20px;
+}
+#rohita{
+    margin-left: 20px;
+}
+button{
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: white;
+    color: black;
+    border-radius: 1px;
+    border-color: blue;
+    border-width: 3px;
+    padding-top: 20px;
+    border-radius: 9px;
+    line-height: 2px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6);
+}
+#name{
+    font-weight: bold;
+}
+#info{
+    font-size: 12px;
+    color: rgb(96, 96, 96);
+}
+table{
+    border-color: black;
+    border-width: 4px;
+}
+#circle {
+    width: 80px;
+    height: 80px;
+    background-color: #007bff;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 90px;
+    vertical-align: top;
+}

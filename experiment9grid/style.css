@@ -5,7 +5,7 @@
 }
 
 body {
-    background: #f5f5f5;
+    background: #e5e2e2;
 }
 
 .heading {
@@ -27,6 +27,7 @@ body {
 }
 
 .card {
+    transform: matrix(5);
     background: white;
     border-radius: 14px;
     padding: 20px;

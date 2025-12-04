@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+}
+.navbar {
+    display: flex;
+    justify-content:space-around ;
+    align-items: center;
+    background-color: chartreuse;
+    color: white;
+    padding: 15px 20px;
+}
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.nav-links {
+    display: flex;
+    list-style: none;
+    
+}
+.nav-links li {
+    margin:0 15px;
+}

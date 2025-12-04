@@ -7,7 +7,7 @@
     display: flex;
     justify-content:space-around ;
     align-items: center;
-    background-color: chartreuse;
+    background-color: rgb(41, 40, 50);
     color: white;
     padding: 15px 20px;
 }
@@ -33,4 +33,29 @@
     color:white;
     text-decoration: none;
     font-weight: bold;
+}/*mobile phone*/
+@media (max-widt:768px){
+    .nav-links{
+        display: none;
+
+    }
+    .actions a{
+        font-size: 0.9rem;
+    }
+
+}
+/* tablet */
+@media (min-width:769px) and (max-width:1024px) {
+    .nav-links a{
+        font-size: 0.9rem;
+    }
+    
+
+}
+/* desktop */
+@media (min-width:1024px) {
+    .nav-links a{
+        font-size: 1rem;
+    }
+    
 }

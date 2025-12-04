@@ -23,3 +23,14 @@
 .nav-links li {
     margin:0 15px;
 }
+.nav-links a{
+    color: white;
+    text-decoration: none;
+    font-size:1rem;
+}
+.actions a{
+    margin-left:15px ;
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+}

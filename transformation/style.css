@@ -30,7 +30,8 @@ box4{
     border-radius: 0%;
     border: .6px solid black;
     padding: 5px;
-    
+}
+
 .box1:hover{
     transform:translate(5px,5px)
 }

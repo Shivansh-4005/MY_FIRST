@@ -1,0 +1,75 @@
+Q1.
+
+/* 👉 Write CSS to make all elements on the page have color: blue and font-family: Arial.
+HTML to test: */
+<h1>Welcome</h1>
+<p>This is a paragraph.</p>
+<span>Some inline text.</span>
+/* Task: */
+/* Fill the CSS below 👇 */
+* {
+    color: blue;
+    font-family: Arial;
+}
+
+
+/* Q2.
+👉 Style all <h2> headings to be red and all <p> to be green.
+HTML: */
+<h2>My Heading</h2>
+<p>This is paragraph one.</p>
+<p>This is paragraph two.</p>
+Task:
+h{
+color:red;
+}
+P{
+Color:green;
+}
+
+
+/* Q3.
+👉 Style all elements having class "highlight" to have background-color: yellow and font-weight: bold.
+HTML: */
+<p class="highlight">This paragraph is important.</p>
+<p>This one is normal.</p>
+<h3 class="highlight">Highlighted heading</h3>
+Task:
+.highlight{
+Background-color:yellow;
+Font-weight:bold;
+}
+
+/* Q4. */
+/* 👉 Style the element with ID "main-title" to have color: purple and text-align: center. */
+/* HTML: */
+<h1 id="main-title">Welcome to CSS</h1>
+<p>This is a simple page.</p>
+Task:
+#main-title{
+Color:purple;
+Text-align:center;
+}
+
+/* Q5. */
+/* 👉 Apply the same color blue to all <h1>, <h2> and <p> elements. */
+/* HTML: */
+<h1>Heading One</h1>
+<h2>Heading Two</h2>
+<p>This is a paragraph.</p>
+Task:
+h1,h2,p{
+color:blue;
+}
+/* Q6. */
+👉 Color only <p> tags inside <div> as brown.
+(Paragraphs outside <div> must remain black.)
+HTML:
+<div>
+  <p>Paragraph inside div</p>
+</div>
+<p>Paragraph outside div</p>
+Task:
+div p{
+color:brown;
+}

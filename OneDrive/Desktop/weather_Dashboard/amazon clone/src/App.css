@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #eaeded;
+}
+
+/* Header */
+.header {
+  background: #131921;
+  color: white;
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  color: #ff9900;
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.searchBar {
+  width: 50%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.nav {
+  display: flex;
+  gap: 20px;
+  font-weight: bold;
+}
+
+.cart {
+  cursor: pointer;
+}
+
+/* Hero Banner */
+.hero img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+}
+
+/* Products */
+.productContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.product {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+}
+
+.product:hover {
+  transform: scale(1.03);
+}
+
+.product img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.product button {
+  margin-top: 10px;
+  padding: 10px 15px;
+  background: #ff9900;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.product button:hover {
+  background: #e68a00;
+}
+
+/* Popup */
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  z-index: 1000;
+}
+
+.popup-content {
+  background: white;
+  width: 500px;
+  max-height: 80vh;
+  overflow-y: auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Cart Items */
+.cart-item {
+  margin-bottom: 20px;
+}
+
+.cart-image {
+  width: 100%;
+  max-height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Buttons */
+.removeBtn {
+  background: orange;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  margin-right: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.deleteBtn {
+  background: red;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.closeBtn {
+  margin-top: 15px;
+  background: #131921;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.closeBtn:hover {
+  opacity: 0.9;
+}
+
+/* Specifications */
+ul {
+  text-align: left;
+  margin-top: 10px;
+}
+
+li {
+  margin-bottom: 8px;
+}

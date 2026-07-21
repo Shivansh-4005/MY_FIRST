@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Books Table</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header allign="center"><h1 >Books Store</h1></header>
+
+    <form id="bookForm">
+        <table border="1" cellpadding="5">
+            <thead>
+                <tr>
+                    <th> ProductCode</th>
+                    <th>Book Name</th>
+                    <th> Book Price</th>
+                    <th>Purchase</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>601</td>
+                    <td>Biography Of Prem Chand</td>
+                    <td>200</td>
+                    <td><input type="checkbox" id="ps1" onclick="enableQuantity('ps1','Q1')" value="200"></td>
+                    <td><input type="number" id="Q1" min="1" disabled></td>
+                </tr>
+                <tr>
+                    <td>602</td>
+                    <td>Harry Potter</td>
+                    <td>1600</td>
+                    <td><input type="checkbox" id="ps2" onclick="enableQuantity('ps2','Q2')" value="1600"></td>
+                    <td><input type="number" id="Q1" min="1" disabled></td>
+                </tr>
+                <tr>
+                    <td>603</td>
+                    <td>Discovery Of India</td>
+                    <td>550</td>
+                    <td><input type="checkbox" id="ps3" onclick="enableQuantity('ps3','Q3')" value="550"></td>
+                    <td><input type="number" id="Q3" min="1" disabled></td>
+                </tr>
+                <tr>
+                    <td>604</td>
+                    <td>Alif-Laila Story</td>
+                    <td>250</td>
+                    <td><input type="checkbox" id="ps4" onclick="enableQuantity('ps4','Q4')" value="250"></td>
+                    <td><input type="number" id="Q4" min="1" disabled></td>
+                </tr>
+                <tr>
+                    <td>605</td>
+                    <td>Amitabh Bachchan</td>
+                    <td>500</td>
+                    <td><input type="checkbox" id="ps5" onclick="enableQuantity('ps5','Q5')" value="500"></td>
+                    <td><input type="number" id="Q5" min="1" disabled></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <br>
+        <button type="button" onclick="showBill()">Show My Bill</button>
+        <button type="reset" onclick="resetForm()">RESET</button>
+    </form>
+
+    <div id="billResult"></div>
+
+</body>
+</html>

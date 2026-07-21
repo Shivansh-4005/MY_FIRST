@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eaf2e8;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    color: #a04020;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 700px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid #b0b0b0;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #d0d7de;
+    color: #333333;
+    font-weight: bold;
+}
+
+td:nth-child(2) {
+    text-align: left;
+    padding-left: 15px;
+}
+
+input[type="number"] {
+    width: 80px;
+    padding: 4px;
+    text-align: center;
+}
+
+.btn-container {
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    background-color: #6b8e5c;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 2px;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+}
+
+button:hover {
+    background-color: #557248;
+}
+
+#billResult {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #333;
+}
